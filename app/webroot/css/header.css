@@ -1,0 +1,187 @@
+#header
+{
+  margin: 0 auto;
+  width: 900px;
+}
+
+#logo
+{
+ 
+}
+
+#logo img
+{
+  border: 0;
+}
+
+#session {
+
+    /*width:200px;*/
+    
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    background:#eee none repeat scroll 0 0;
+    color:black;
+    padding:6px;
+    text-align:left;
+}
+
+#session span {
+    float: right;
+}
+#session a {
+    color: black;
+}
+#session a:hover {
+    color: #666;
+}
+
+#menu
+{
+  float:right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+
+#menu ul
+{
+ /* height:160px;*/
+  padding:0;
+  margin:0;
+}
+
+#menu li
+{
+  margin-left:3px;
+  margin-right:3px;
+
+  width: 60px;
+  float: left;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+  font-size: 13px;
+  /*font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;*/
+  font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+  letter-spacing: 0px;
+}
+
+#menu a
+{
+  display: block;
+  
+  padding-top: 54px;
+  color: #777;
+  text-decoration: none;
+  height:100%;
+}
+
+#menu a:hover, #menu .menuMusic2 a,#menu .menuAdd2 a, #menu .menuUser2 a,
+#menu .menuRequest2 a
+{
+  color: #000;
+  font-weight: bold;
+}
+
+
+#menu .menuHome a 
+{ background:transparent url("images/menu-home2.png") no-repeat scroll center 0px; }
+
+#menu .menuHome a:hover
+{ background:transparent url("images/menu-home.png") no-repeat scroll center 0px; }
+
+
+#menu .menuMusic a 
+{ background:transparent url("images/menu-music2.png") no-repeat scroll center 0px; }
+
+#menu .menuMusic a:hover, #menu .menuMusic2 a
+{ background:transparent url("images/menu-music.png") no-repeat scroll center 0px; }
+
+#menu .menuAdd a
+{ background:transparent url("images/menu-add2.png") no-repeat scroll center 0px; }
+
+#menu .menuAdd a:hover, #menu .menuAdd2 a
+{ background:transparent url("images/menu-add.png") no-repeat scroll center 0px; }
+
+#menu .menuUser a
+{ background:transparent url("images/menu-user2.png") no-repeat scroll center 0px; }
+
+#menu .menuUser a:hover, #menu .menuUser2 a
+{ background:transparent url("images/menu-user.png") no-repeat scroll center 0px; }
+
+#menu .menuRequest a
+{ background:transparent url("images/menu-request2.png") no-repeat scroll center 0px; }
+
+#menu .menuRequest a:hover, #menu .menuRequest2 a
+{ background:transparent url("images/menu-request.png") no-repeat scroll center 0px; }
+
+
+
+#letters
+{
+  /*width: 800px;*/
+  height: 28px;
+  font-size:14px;
+  margin-bottom: 6px;
+  /*  background: #ff2079 url("images/letters.png") top left no-repeat; color.css */
+  -moz-border-radius: 4px;
+}
+
+#letters ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+  margin-left: 4px;
+}
+
+#letters ul li
+{
+	float: left;
+}
+
+#letters ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 6px;
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  /*  background-color: #f32275; color.css  */ 
+}
+
+#letters .search
+{
+float: right;
+margin-top:4px;
+margin-right:4px;
+
+}
+
+#letters .search input 
+{
+  margin-left: 4px;
+  border: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 1px;
+  font-size:14px;
+}
+
+#letters .butt 
+{
+  /* background-color: #ff76ad; color.css */
+  color: white;
+}
+
+#letters .words 
+{
+  color: #bbb;
+}

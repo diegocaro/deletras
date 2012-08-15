@@ -1,0 +1,193 @@
+/**
+ * Para Request y Response
+ */
+ 
+.form fieldset {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width:670px;
+    border: 0;
+    margin: 0 auto;
+}
+
+.form fieldset legend {
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:-1px;
+    margin:2px 2px 2px 0;
+}
+
+.form label {
+    display:inline-block;
+    float:left;
+    font-size:15px;
+    margin-right:10px;
+    margin-top:3px;
+    text-align:right;
+    vertical-align:top;
+    width:100px;
+}
+
+.form input,
+.form textarea {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    width:400px;
+}
+
+.form .input {
+    margin:5px;
+    padding:2px;
+}
+
+.form .checkbox input {
+    display:inline-block;
+    float:left;
+    font-size:15px;
+    margin-right:10px;
+    margin-top:3px;
+    text-align:right;
+    vertical-align:top;
+    width:100px;
+}
+
+.form .checkbox label {
+    width:400px;
+    text-align: left;
+}
+
+.form .submit {
+    margin-right:200px;
+    margin-top:10px;
+    text-align:right;
+}
+
+.form .submit input {
+    font-size:15px;
+    padding:3px;
+    width: auto;
+}
+
+.form  .error-message {
+    margin-left: 112px;
+    margin-top: 2px;
+    color: red;
+}
+
+.form .required label {
+    font-weight: bold;
+}
+
+/**
+ * Requests
+ */
+ 
+.requests .submit {
+    margin-right:100px;
+}
+
+.requests-suscripted {
+    clear: both;
+    font-family:Arial,Helvetica,sans-serif;
+
+    padding-top:2px;
+}
+
+.requests-suscripted .checkbox input {
+    display:inline-block;
+}
+
+.requests-suscripted .checkbox label {
+    width:400px;
+    font-size:15px;
+    text-align: left;
+}
+
+
+/**
+ * Responses
+ */
+ 
+.responses-add .submit {
+    margin-right: 0;  
+}
+.responses-add .submit input {
+    height: 106px;
+}
+.responses-add textarea {
+    width: 590px;
+    height: 100px;
+    float: left;
+}
+
+/**
+ * Comments
+ */
+ 
+.comments-add .submit {
+    margin-right: 0;  
+}
+.comments-add .submit input {
+    height: 46px;
+}
+.comments-add textarea {
+    width: 436px;
+    height: 40px;
+    float: left;
+}
+
+/**
+ * Users
+ */
+ 
+ .users-login-ajax fieldset {
+    width: auto;
+ }
+ 
+.users-login-ajax input {
+    font-size:13px;
+    width:240px;
+}
+
+.users-login-ajax label {
+    font-size:14px;
+    width:130px;
+}
+
+.users-login-ajax .checkbox input {
+    margin-right: 4px;
+    width:134px;
+}
+
+.users-login-ajax .checkbox label {
+    width: auto;
+    font-size:13px;
+}
+
+.users-login-ajax .submit {
+    margin-right: 20px;
+}
+
+.users-login-ajax .submit input {
+    font-size:14px;
+    padding:3px;
+    width: auto;
+}
+
+/**
+ * Lyrics add-edit
+ */
+
+.lyrics input {
+    width:240px;
+}
+
+.lyrics textarea {
+    width:340px;
+}
+
+.lyrics .submit {
+    margin-right:56px;
+}

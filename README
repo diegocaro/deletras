@@ -1,0 +1,16 @@
+DeLetras.cl fue un sitio web con letras de canciones enviadas por usuarios. Una versión del año 2011 está disponible en archive.org http://web.archive.org/web/20110701195709/http://deletras.cl/ 
+
+El presente repositorio tiene por objetivo liberar el código fuente de la aplicación web y
+dejar a libre disposición la información de artistas, albumes y letras de canciones que 
+los usuarios dejaron disponibles.
+
+Instalación
+La aplicación fue construida utilizando el software CakePHP v1.2.3 [1] y el gestor de bases de datos MySQL [2].
+
+Para instalar el software, se deben seguir los pasos para la puesta en marcha de CakePHP, disponible en http://book.cakephp.org/1.2/en/view/29/Installation-Preparation
+
+El archivo sql/tables+data.sql.bz2 contiene la estructura de la base de datos y la información enviada por los usuarios.
+
+
+
+Copyleft 2004-2012 Diego Caro.

@@ -1,0 +1,44 @@
+#letters
+{
+  /*background: #ff862d url("images/letters-naranjo.png") top left no-repeat;*/
+  background: #ff862d;
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  background-color: #ffa229;
+}
+
+#letters .butt
+{
+  background-color: #ffa229;
+}
+
+#sidebar
+{
+	background: #ff862d url("images/foot-naranjo.png") bottom left no-repeat;
+}
+
+#sidebar .first
+{
+  background: url("images/top-naranjo.png") top left no-repeat;
+}
+
+
+#sidebar ul li,
+#sidebar ol li
+{
+	background-color: #ef7d2a;
+	border-bottom:1px solid #eda36d;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover,
+#sidebar ol li a:hover, #sidebar ol li:hover
+{
+  background-color: #ffa229;
+}
+
+#content h1
+{
+  color: #ff862d;
+}

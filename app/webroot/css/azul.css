@@ -1,0 +1,42 @@
+#letters
+{
+  /*background: #46c5ea url("images/letters-azul.png") top left no-repeat;*/
+  background: #46c5ea
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  background-color: #4ad0f2;
+}
+
+#letters .butt
+{
+  background-color: #3daccc;
+}
+
+#sidebar
+{
+	background: #46c5ea url("images/foot-azul.png") bottom left no-repeat;
+}
+
+#sidebar .first
+{
+  background: url("images/top-azul.png") top left no-repeat;
+}
+
+
+#sidebar ul li
+{
+	background-color: #42b9db;
+	border-bottom:1px solid #84c8db;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover
+{
+  background-color: #4ad0f2;
+}
+
+#content h1
+{
+  /*color: #f32275;*/
+}

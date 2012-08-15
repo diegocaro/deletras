@@ -1,0 +1,68 @@
+- por hacer
++ lista
+R resuelta, sin codificar se omite su implementacion
+X descartada
+
+FacebookConnect:
+ + Permitir registrar usuario con facebook
+ + Linkear cuentas (luego de verificar el nombre de usuario/email y contraseña) -> que hacer con email si es unico y not null?
+ + Recordar contraseña de usuari facebook?? -> decir que facebook la tiene.
+ + cambiar el nombre de usuario a "Nombre de Usuario", cuando exista.
+ X Mirar lo que ha enviado el usuario con el ID, no con el username -> no, mucho webeo
+ R Iniciar con el correo electrónico?? -> no, usar username comun, concatenar el nombre de facebook y hacerlo un usuario (si existe, agregar _fb al final)
+ + logout cierra sesion facebook si existe
+ + si el usuario es de facebook, mostrar una F de facebook en el nick en el header
+ + sacar boton iniciar con facebook si ya está logueado el usuario
+ - volver a la pagina que estabamos si iniciamos sesion cuando algo está prohibido
+ + modificar template login para que use FACEBOOK
+ R que pasa cuando pedimos enviar por correo con el request??? -> no se envia si no existe el mail
+
+Comentarios:
+ - imponer un límite a los comentarios
+
+Requests:
+ + fecha ultima actualizacion
+ + contar respuestas
+ + ordenar por fecha ultima actualizacion y cantidad de respuestas
+ + Usar AJAX
+ - Marcar spam
+ - Formulario con explicación al agregar requests a la derecha... en todo :)
+ + "Vigilar" topic enviando un correo
+ - Mostrar que si no estás logueado, no puedes hacer nah de agregar respuestas y responder!
+ - Mostrar que si no tienes correo, no te pueden enviar la notificacion de respuesta neuva
+
+Login:http://deletras.cl/music/Manuel-Garcia/_/La-Gran-Capital
+ - Cambiar othAuth
+ + Iniciar con Facebook
+ + traducir los mensajes de login
+ - Mostrar iniciar sesión con lightbox
+
+Lyric:
+ - Comentar (usando el mecanismo de requests!)
+ + Compartir canción (usando addthis.com)
+ - dedicar?
+ - Marcar spam
+ - Permitir un administrador que edite una cancion o la elimine
+ - Historial de una cancion (a cuantos artistas ha permanecido) -> o sacar 
+ - info de otra parte -> musicbrain?
+ - Algo para sacar videoclips wenos wenos
+ - Poner lo de goear y bajar la cancion
+ - Musica con iLike o Last.fm o grooveshark?
+ - guardar como pdf
+
+Home:
+ + Mostrar texto de ayuda como en needish
+
+Dashboard:
+ - nombre de artistas en top5
+ 
+Todo el sitio:
+ - Traducirlo al inglés
+ - Crear un estilo para la maquetacion
+   * Cambiar left y right por side-A side-B, o lo que sea... pensar en eso.
+   * Reordenar los estilos segun la guia
+ - Reconfigurar los modelos, hay info que no es necesaria.
+ - Agregar linklift como publicidad
+ +Sacar menu de usuarios o hacer algo mejor con esop
+ + Nombres normalizados: ArtisAta -> Artisata
+ - Agregar template a los correos enviados

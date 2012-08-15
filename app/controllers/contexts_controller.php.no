@@ -1,0 +1,15 @@
+<?php
+class ContextsController extends AppController
+{
+    var $uses = array('Stat');
+    
+    function music()
+    {
+        $this->set('top_tracks', $this->Stat->TopTracks('2007-12-12','2007-12-17') );
+        $this->set('top_artists', $this->Stat->TopArtists('2007-12-12','2007-12-17') );
+        $this->set('top_users', $this->Stat->TopUsers('2007-12-12','2007-12-17') );
+    }
+    
+    
+}
+?>

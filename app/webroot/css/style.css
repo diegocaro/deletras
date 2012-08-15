@@ -1,0 +1,1438 @@
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin: 0px;
+}
+
+#header, #page, #footer
+{
+  margin: 0 auto;
+  width: 900px;
+}
+
+
+#page
+{
+	margin-top: 6px;
+
+}
+
+#sidebar
+{
+	float: left;
+	width: 200px;
+	padding-bottom: 10px;
+	color: white;
+	
+	/* background: #ff2079 url("images/foot.png") bottom left no-repeat; color.css */
+}
+
+#sidebar a
+{
+  color: white;
+  text-decoration: none;
+}
+
+#sidebar a:hover
+{
+  text-decoration: underline;
+}
+
+
+#sidebar h1
+{
+	margin:0px;
+	font-size:18px;
+	letter-spacing:-1px;
+	color: white;
+	padding-top: 6px;
+	padding-right: 0;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-weight: normal;
+  /*background: url("images/top.png") top left no-repeat;*/
+}
+
+#sidebar .first
+{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+  /* background: url("images/top.png") top left no-repeat; color.css */
+}
+
+#sidebar p
+{
+	padding-right: 4px;
+	padding-left: 4px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#sidebar ul
+{
+	list-style:none;
+	padding:0px;
+	margin: 0px;
+}
+
+#sidebar ul li
+{
+	display:block;
+	padding: 4px;
+	padding-left: 6px;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover
+{
+  display: block;
+}
+
+
+#sidebar ol
+{
+	list-style: decimal inside;
+	padding:0px;
+	margin: 0px;
+}
+
+#sidebar ol li
+{
+	/*display:list-item;*/
+	padding: 4px;
+	padding-left: 6px;
+}
+
+#sidebar ol li a:hover, #sidebar ol li:hover
+{
+  /*display: block;*/
+}
+
+#content
+{
+  height: auto;
+  margin-left: 220px;
+}
+
+#page .wide { margin-left:0; width: 96%; margin: 0 auto;}
+
+#content p
+{
+  padding: 4px;
+  /*padding-left: 0;*/
+  margin: 0px;
+}
+
+#content h1, #content h2, #content h3
+{
+  font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+  
+}
+
+#content h1
+{  
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2px 2px 2px 0px;
+  
+  /*color: #f32275; color.css */
+  letter-spacing: -2px;
+}
+
+#content a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#content a:hover
+{
+  /*color: #666;*/
+  text-decoration: underline;
+}
+
+/*
+#page .wide a {
+    text-decoration: underline;
+}
+
+#page .wide a:hover {
+    color: #666;
+}
+*/
+
+#footer
+{
+    background-color:#E0E0E0;
+    border-top:1px solid #CCCCCC;
+    margin-top:20px;
+    padding:20px 0;
+    text-align:center;
+    width:100%;
+    
+    display:block;
+} 
+
+#footer a
+{
+  text-decoration: underline;
+  color: black;
+}
+
+#footer a:hover
+{
+  text-decoration: underline;
+  color: gray;
+}
+
+
+
+
+/*
+ *
+ *  REGISTER
+ *
+ */
+
+#register {
+    margin: 0;  
+    width: 520px;
+    margin-left: 50px;
+}
+
+#register form {
+    margin-top: 20px;
+}
+
+
+/*
+ * Tag span: mensajes con información de los campos del formulario
+ */
+#register span {
+    margin-left: 190px;
+    display: block;
+}
+
+#register ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#register ul li {
+	margin: 5px;
+	padding: 2px;
+}
+
+#register label {
+    display:inline-block;
+    width: 180px;
+    text-align:right;
+    margin-right: 10px;
+    margin-top: 3px;
+    vertical-align:top;
+    font-size: 15px;
+    float:left;
+}
+
+#register label,
+#register input,
+#register textarea {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#register input,
+#register textarea {
+    font-size: 14px;
+    width:230px;
+}
+
+#register .submit {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#register .submit input {
+    font-size: 15px;
+    padding: 3px;
+    width: auto;
+}
+
+#register .error-message {
+    background-color:#FFCCCC;
+    display:block;
+    font-size:14px;
+    /*margin-left:190px;*/
+    padding:3px;
+
+}
+
+
+#register .checkbox {
+    margin-bottom: 20px;
+
+}
+
+#register .checkbox label {
+    width:auto;
+    margin-top:1px;
+}
+
+#register .checkbox input {
+    display:inline-block;
+    margin-left: 170px;
+    text-align:right;
+    margin-right: 10px;
+    margin-top: 3px;
+    vertical-align:top;
+    font-size: 15px;
+    float:left;
+}
+
+#register a {
+    text-decoration: underline;
+}
+
+
+#register_suggest {
+    border-left:1px solid #CCCCCC;
+    float:right;
+    font-size:14px;
+    /*height:100px;*/
+    margin-top:40px;
+    margin-right: 40px;
+    padding-bottom:2px;
+    padding-left:6px;
+    padding-top:2px;
+    width:240px;
+    text-align:right;
+}
+
+
+
+/*
+ *
+ *  ADD
+ *
+ */
+
+#add {
+    margin: 0px auto;  
+    width: 520px;
+}
+
+#add form {
+    margin-top: 20px;
+}
+
+
+
+#add ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#add ul li {
+	margin: 5px;
+	padding: 2px;
+}
+/*
+#add label {
+    display:inline-block;
+    width: 100px;
+    text-align:right;
+    margin-right: 10px;
+    margin-top: 3px;
+    vertical-align:top;
+    font-size: 15px;
+    float:left;
+}
+*/
+
+/*
+ * Class edit: texto con valor constante dentro del formulario.
+ */
+#add .edit {
+   margin-top: 3px; 
+   /*margin-left: 4px;*/
+   font-size: 15px;
+   font-style:italic;
+   font-weight:bold;
+}
+/*
+#add label,
+#add input,
+#add textarea,
+#add .edit {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#add input,
+#add textarea {
+    font-size: 14px;
+}
+
+#add .submit {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#add .submit input {
+    font-size: 15px;
+    padding: 3px;
+}
+*/
+#add .auto_complete {
+    position :absolute;
+    width :250px;
+    background-color :white;
+    border :1px solid #888;
+    margin :0px;
+    padding :0px;
+    font-size: 14px;
+}
+
+#add .auto_complete ul {
+    /*margin:0;
+    padding:0;*/
+}
+#add .auto_complete li {
+    margin:0;
+    padding-left:3px;
+}
+
+#add .auto_complete li.selected { 
+    background-color: #84c8db;
+    cursor:pointer;
+}
+
+/*
+ *
+ *  Recover
+ *
+ */
+
+#recover {
+    margin: 0px auto;  
+    width: 460px;
+    font-size: 13px;
+}
+
+#recover form {
+    margin-top: 20px;
+}
+
+#recover ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#recover ul li {
+	margin: 5px;
+	padding: 2px;
+}
+
+#recover label {
+    display:inline-block;
+    width: 100px;
+    text-align:right;
+    margin-right: 10px;
+    margin-top: 3px;
+    vertical-align:top;
+    font-size: 15px;
+    float:left;
+}
+
+#recover label,
+#recover input,
+#recover textarea {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#recover input,
+#recover textarea {
+    font-size: 14px;
+    width:260px;
+}
+
+#recover .submit {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#recover .submit input {
+    font-size: 15px;
+    padding: 3px;
+    width: auto;
+}
+
+#recover .error-message {
+    background-color:#FFCCCC;
+    display:block;
+    font-size:14px;
+    /*margin-left:190px;*/
+    padding:6px;
+
+}
+
+
+#recover .login_link {
+    border: 0;
+    background: transparent;
+    width: auto;
+    display: inline;
+    font-weight: bold;
+    font-size:13px;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+
+#recover .login_link:hover {
+    text-decoration: underline;
+}
+
+/*
+ *
+ *  User
+ *
+ */
+
+#user {
+
+
+}
+
+#usertracks a
+{
+  display: block;
+  padding: 1px;
+}
+
+#usertracks a:hover
+{
+  text-decoration: underline;
+}
+
+#usertracks table {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+#usertracks table td {
+  border-bottom: 1px solid #eee;
+  
+  padding-left: 2px;
+  padding-right: 2px;
+  
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+  width: 100%;
+
+}
+
+#usertracks table tr:hover {
+  background-color: #eee;
+}
+
+#usertracks .track
+{
+  padding-left: 20px;
+}
+
+#usertracks .artist
+{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#usertracks .left
+{
+  float: left;
+  width: 48%;
+}
+
+#usertracks .right
+{
+  float: right;
+  width: 48%;
+}
+
+#paginate {
+    
+    margin: 0 auto;
+    width: 60%;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+#paginate .prev {
+    float: left;
+}
+
+#paginate .next {
+    float: right;
+}
+
+#paginate .numbers {
+    text-align: center;
+}
+
+#paginate .current {
+    font-weight: bold;
+}
+
+#minipaginate {
+    float: right;
+    margin: 0 auto;
+    /*width: 200px;*/
+    font-size: 14px;
+    /*margin-top: 12px;*/
+}
+
+#minipaginate .prev {
+    float: left;
+}
+
+#minipaginate .next {
+    float: right;
+}
+
+#minipaginate .numbers {
+    text-align: center;
+}
+
+#minipaginate .current {
+    font-weight: bold;
+}
+
+/*
+ *
+ *  Musicsearch
+ *
+ */
+
+#musicsearch
+{
+  /*background: transparent url("images/lupa.png") top left no-repeat;*/
+
+  margin-top:10px;
+  
+  /*margin: 0 auto;*/
+
+  /*width: 410px;*/
+}
+
+#musicsearch input
+{
+  padding:1px;
+}
+
+#musicsearch .words 
+{
+  width: 300px;
+  margin-left: 2px;
+  padding-left:4px;
+  font-size: 16px;
+
+}
+
+#musicsearch .butt 
+{
+  width: auto;
+  
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+
+#toptracks
+{
+  margin-top: 30px;
+}
+
+#toptracks table td {
+  border-bottom: 1px solid #eee;
+}
+
+#toptracks table tr:hover {
+  background-color: #eee;
+}
+
+
+#toptracks table {
+  width: 100%;
+}
+#toptracks h3
+{
+  color: #ddd;
+}
+
+#toptracks a
+{
+  display: block;
+  padding: 1px;
+}
+
+#toptracks a:hover
+{
+  text-decoration: underline;
+}
+
+#toptracks .position, #toptracks .image, #toptracks .track, #toptracks .stat
+{
+  padding-left: 6px;
+  padding-right: 6px;
+  
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#toptracks .position
+{
+  font-size: 26px;
+  width: 20px;
+  font-weight: bold;
+  font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+  color: #bbb;
+}
+
+#toptracks .image
+{
+  width: 50px;
+}
+
+#toptracks .track
+{
+  width: 200px;
+  font-size:13px;
+
+}
+
+#toptracks .stat
+{
+
+}
+
+
+/*
+ * Search results
+ */
+
+#searchresults h2
+{
+  color: #87d420;
+}
+
+
+#searchresults h3
+{
+
+
+}
+#searchresults a
+{
+  display: block;
+  padding: 1px;
+}
+
+#searchresults a:hover
+{
+  text-decoration: underline;
+}
+
+#searchresults table {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+#searchresults table td {
+  border-bottom: 1px solid #eee;
+  
+  padding-left: 2px;
+  padding-right: 2px;
+  
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+#searchresults table tr:hover {
+  background-color: #eee;
+}
+
+#searchresults .result
+{
+  width: 100%;
+}
+
+#searchresults .left
+{
+  float: left;
+  width: 48%;
+}
+
+#searchresults .right
+{
+  float: right;
+  width: 48%;
+}
+
+/*
+ * Artist
+ */
+ 
+#artist h2
+{
+  color: #87d420;
+}
+
+
+#artist h3
+{
+
+
+}
+
+#artist .left
+{
+  float: left;
+  width: 46%;
+}
+
+#artist .right
+{
+  float: right;
+  width: 310px;
+}
+
+#artist a
+{
+  display: block;
+  padding: 1px;
+}
+
+#artist a:hover
+{
+  text-decoration: underline;
+}
+
+#artist table {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+#artist table td {
+  border-bottom: 1px solid #eee;
+  
+  padding-left: 2px;
+  padding-right: 2px;
+  
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+#artist table tr:hover {
+  background-color: #eee;
+}
+
+#artist .result
+{
+  width: 100%;
+}
+
+/*
+ * Track
+ */
+ 
+ #track .left
+{
+  float: left;
+  width: 500px;
+}
+
+#track .right
+{
+  float: right;
+  width: 340px;
+}
+
+#track .lyric
+{
+    margin-top: 14px;
+    font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#listvideo {
+}
+
+#listvideo ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+    margin-left: 12px;
+}
+
+#listvideo ul li
+{
+	float: left;
+}
+
+#listvideo ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 4px;
+	padding-bottom:5px;
+}
+
+#listvideo img {
+    -moz-border-radius-bottomleft:3px;
+    -moz-border-radius-bottomright:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-topright:3px;
+    background-color:#232729;
+    border:1px solid #6B6C69;
+    margin:1px;
+    padding:4px;
+}
+
+#listvideo a:hover img {
+    border:2px solid #87d420;
+    margin:0px;
+}
+
+#infotrack h2{
+    margin-top:0;
+    font-weight:normal;
+    letter-spacing:-1px;
+}
+
+#infotrack h2 a {
+    color: #666;
+}
+#infotrack h1{
+    color: black;
+}
+
+#menutrack {
+	padding: 4px;
+	background-color: #E1E1E1;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 8px;
+}
+#menutrack .actions-edit {
+	float: left;
+	padding-left: 20px;
+	line-height: 16px;
+}
+
+#menutrack .addthis {
+	text-align: right;
+}
+
+/*
+ * Mini List Album
+ */
+ 
+#minilistalbum a
+{
+  display: block;
+  padding: 1px;
+}
+
+#minilistalbum table {
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+#minilistalbum table td {
+  border-bottom: 1px solid #eee;
+  
+  padding-left: 2px;
+  padding-right: 2px;
+  
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 300px;
+}
+
+#minilistalbum table tr:hover {
+  background-color: #eee;
+}
+
+/*
+ * SEARCH PAGE
+ */
+
+#search
+{
+  padding-left: 16px;
+  padding-top:16px;
+  padding-bottom:16px;
+  
+  margin-top: 20px;
+}
+
+#search input
+{
+  font-size: 20px;
+  font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+  letter-spacing: -1px;
+  padding:1px;
+}
+
+#search .lupa
+{
+  float: left;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+/*
+ * NUBE
+ */
+
+#nube {
+    /*letter-spacing: -1px;*/
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nube a {
+    text-decoration: underline;
+}
+
+#nube a:hover {
+    color: #666;
+}
+
+#nube span {
+    margin-right: 4px;
+}
+
+#nube .small {
+    font-size: 13px;
+}
+
+#nube .medium {
+    font-size: 14px;
+}
+
+#nube .big {
+    font-size: 16px;
+}
+
+#nube .popular {
+    font-size: 18px;
+}
+
+/*
+ *
+ *  SPECIAL CONTENT 
+ *
+ */
+
+#content .navBig
+{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+#content .navBig ul
+{
+  height:160px;
+  padding:0;
+  margin:0;
+}
+
+#content .navBig li
+{
+  margin-left:4px;
+  margin-right:4px;
+
+  width: 130px;
+  float: left;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  text-align: center;
+  color: #777;
+  font-size: 26px;
+  font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+  letter-spacing: -1px;
+}
+
+#content .navBig a
+{
+  display: block;
+  padding-top: 124px;
+  color: #777;height:100%;
+  text-decoration: none;
+}
+
+#content .navBig a:hover
+{
+  color: #bbb;
+  text-decoration: none;
+}
+
+#content .navBig .navMusic a 
+{ background:transparent url("images/music.png") no-repeat scroll center 0px; }
+
+#content .navBig .navMusic a:hover
+{ background:transparent url("images/music2.png") no-repeat scroll center 0px; }
+
+#content .navBig .navAdd a
+{ background:transparent url("images/add.png") no-repeat scroll center 0px; }
+
+#content .navBig .navAdd a:hover
+{ background:transparent url("images/add2.png") no-repeat scroll center 0px; }
+
+#content .navBig .navUser a
+{ background:transparent url("images/user.png") no-repeat scroll center 0px; }
+
+#content .navBig .navUser a:hover
+{ background:transparent url("images/user2.png") no-repeat scroll center 0px; }
+
+#content .navBig .navRequest a
+{ background:transparent url("images/request.png") no-repeat scroll center 0px; }
+
+#content .navBig .navRequest a:hover
+{ background:transparent url("images/request2.png") no-repeat scroll center 0px; }
+
+#content #navSuggest {
+    float:right;
+    margin-top: 34px;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 200px;
+    font-size: 14px;
+}
+
+#content #navSuggest a {
+    display: inline;
+    padding-top: 0;
+    text-decoration: underline;
+}
+
+#navSuggest #suggbox{
+	background-color: #333;
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 11px;
+}
+#navSuggest #suggbox a {
+	color: #CCC;
+}
+
+#navSuggest #suggarrow {
+	position: absolute;
+	margin-top: 14px;
+	display: block;
+	background-image: url(images/bg-bubble.png);
+	height: 21px;
+	width: 11px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#navSuggest #suggbox a:hover {
+	color: #FF862D;
+}
+
+
+#content .bigsearch
+{
+  background: transparent url("images/lupaa.png") top left no-repeat;
+  padding-left: 86px;
+  padding-top:10px;
+  padding-bottom:16px;
+  
+  margin-top: 40px;
+}
+
+#content .bigsearch input
+{
+  font-size: 20px;
+  font-family: "Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+  letter-spacing: -1px;
+  padding:1px;
+}
+
+#content .bigsearch .lupa
+{
+  float: left;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+#content .bigsearch .words 
+{
+  width: 320px;
+  margin-left: 2px;
+  padding-left:4px;
+  color: #bbb;
+
+}
+
+#content .bigsearch .butt 
+{
+  width: auto;
+  
+  margin-left: 6px;
+  
+}
+
+#content .bigsearch p
+{
+  font-weight: bold;
+}
+
+#content .h2title
+{
+  
+	font-family:"Trebuchet MS", Tahoma, Verdana;
+	font-size:18px;
+	text-transform:lowercase;
+	letter-spacing:-1px;
+	border-bottom:1px solid #eee;
+	
+	text-align:right;
+
+	overflow: hidden;
+	height: 17px;
+	
+padding:0;
+margin:0;
+margin-top: -18px;
+}
+
+#content .abc li a, #content .abc li{
+  display: inline;
+
+  padding:4px;
+  color: #bbb;
+}
+
+#content .abc li a:hover{
+  color: #000;
+}
+
+#content .abc {
+
+  text-align:center;
+  font-size: 28px;
+  font-family:"Trebuchet MS", Tahoma, Verdana;
+  margin-top: 14px;
+  padding: 0;
+}
+
+
+#content .minicover,
+#sidebar .minicover,
+#track .minicover {
+    background-image: url("images/mininocover.png");
+    height: 40px;
+    width: 40px;
+    float: left;
+    opacity: 0.4; 
+    margin-right: 4px;
+}
+
+#content .minialbum,
+#sidebar .minialbum,
+#track .minicover {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+/*
+ * Request
+ */
+
+#request h2 {
+    margin: 0px;
+    
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+#request p {
+    font-size: 13px;
+
+}
+#request .left {
+  float: left;
+  width: 80%;
+}
+
+#request .right {
+  float: right;
+  width: 160px;
+}
+
+#request .item {
+    padding: 6px;
+}
+
+#request .altrow {
+    background-color: #eee;
+}
+
+#request .info {
+	color: #666;
+	font-style: italic;
+    margin-bottom: 4px;
+}
+
+#addrequest {
+	float: right;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#addrequest a {
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+#data .title {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+#data .number {
+	font-size: 24px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#data th {
+	font-size: 12px;
+	background-color: #CCC;
+}
+
+#data .username {
+	color: #666;
+	margin-left: 4px;
+	font-size: 14px;
+	font-style: italic;
+}
+#data .content {
+	color: #999;
+}
+#data .altrow {
+    background-color: #eee;
+}
+#data .date {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: center;
+}
+#data {
+
+}
+#data th a {
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+/**
+ * Content AJAX
+ */
+#content-ajax {
+}
+
+#content-ajax a {
+    color: black;
+    font-style: underline;
+}
+
+#content-ajax a:hover {
+    color: #666;
+}
+
+/**
+ * Users login ajax :)
+ */
+ 
+#users-login-suggest {
+    margin-bottom: 10px;
+    margin-top: 2px;
+    
+    /*-moz-border-radius:3px;*/
+    background-color:#FFEEBB;
+    border: 1px solid #FFDD88;
+    /*color:white;*/
+    
+    padding:4px;
+}
+
+#users-login-suggest a {
+    /*color:#CCCCCC;*/
+}
+
+#users-login-suggest a:hover {
+    color:#FF862D;
+}
+
+
+#users-login-suggest p {
+    margin: 0;
+    padding: 4px;
+}
+
+#users-login-suggest .register {
+    float: right;
+    text-align: right;
+    width: 200px;
+    /*border-left: 1px solid #ccc;*/
+}
+
+#users-login-suggest .facebook {
+    width: 200px;  
+}
+
+
+/**
+ * Comments
+ */
+#CommentsView .item {
+    padding: 4px;
+}
+
+#CommentsView .info {
+	color: #666;
+	font-style: italic;
+    margin-bottom: 4px;
+}
+
+#CommentsView p {
+
+}
+
+#CommentsView .altrow {
+    background-color: #eee;
+}
+#CommentsView .date {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: center;
+}

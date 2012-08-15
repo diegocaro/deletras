@@ -1,0 +1,42 @@
+#letters
+{
+  /*background: #d24ae4 url("images/letters-violeta.png") top left no-repeat;*/
+  background: #d24ae4;
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  background-color: #e37cef;
+}
+
+#letters .butt
+{
+  background-color: #e37cef;
+}
+
+#sidebar
+{
+	background: #d24ae4 url("images/foot-violeta.png") bottom left no-repeat;
+}
+
+#sidebar .first
+{
+  background: url("images/top-violeta.png") top left no-repeat;
+}
+
+
+#sidebar ul li
+{
+	background-color: #bc42cc;
+	border-bottom:1px solid #cd5cdb;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover
+{
+  background-color: #dc72e9;
+}
+
+#content h1
+{
+  color: #f32275;
+}

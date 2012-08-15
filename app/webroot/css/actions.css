@@ -1,0 +1,53 @@
+/*
+ *
+ * ACTIONS!
+ *
+ */
+
+.actions {
+	float: right;	
+}
+
+.actions ul {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.actions ul li {
+	margin-left: 1em;
+	line-height: 16px;
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+}
+
+.actions a {
+	font-size: 1em;
+	
+}
+.actions-edit {
+	background-image: url(icons/page_white_edit.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+.actions-delete {
+	background-image: url(icons/delete.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.actions-add {
+	background-image: url(icons/add.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.actions-delete2 {
+	background-image: url(icons/delete2.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+

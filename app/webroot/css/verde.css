@@ -1,0 +1,50 @@
+#letters
+{
+  /*background: #87d420 url("images/letters-verde.png") top left no-repeat;*/
+  background: #87d420;
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  background-color: #8ee01f;
+}
+
+#letters .butt
+{
+  background-color: #72b21b;
+}
+
+#sidebar
+{
+	background: #87d420 url("images/foot-verde.png") bottom left no-repeat;
+}
+
+#sidebar .first
+{
+  background: url("images/top-verde.png") top left no-repeat;
+}
+
+
+#sidebar ul li,
+#sidebar ol li
+{
+	background-color: #7dc41e;
+	border-bottom:1px solid #aad86d;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover,
+#sidebar ol li a:hover, #sidebar ol li:hover
+{
+  background-color: #8ee01f;
+}
+
+#content h1
+{
+  color: #87d420;
+}
+
+#content .h2title
+{
+  color:#d4e78a;
+}
+

@@ -1,0 +1,34 @@
+cambiar lo de insert a save, mejoramos estandar.?
+
+Usar App::import en vez de crear funciones nuevamente.... ;)
+
+Ver que sucede con canciones con numeros!
+
+agregar en beforesave, filtros para crear un mejor nombre de artista
+ - borrar espacios
+ - sacar slashes
+
+verificar que sucede con created y modified
+ + probar que pasa cuando usamos create usando timestamp y datetime 
+  -> y pasarlos a todo 
+  -> funciona bien al usar create() en el modelo, justo antes de crear varios
+
+crear test usando:
+ + sql inject en todos los campos al guardar datos y al hacer select
+ - slashes y caracteres no permitidos al ver la url
+ - recorrer la web y buscar url muertas 404 not found
+
+
+contraseña
+ + sacar contraseña cuando está mala.
+ + apuntar automáticamente en formulario cuando está mala
+
+
+TESTS
+
+' OR 1=1 '    OK
+holas+/       NO
+`Buenos días  OK
+Mis\a         OK
+<strong>asd   OK
+&quote -> error!

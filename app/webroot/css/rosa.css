@@ -1,0 +1,44 @@
+#letters
+{
+  /*background: #ff2079 url("images/letters-rosa.png") top left no-repeat;*/
+  background: #ff2079;
+}
+
+#letters ul li a:hover,#letters ul li:hover
+{
+  background-color: #f32275;
+}
+
+#letters .butt
+{
+  background-color: #ff76ad;
+}
+
+#sidebar
+{
+	background: #ff2079 url("images/foot-rosa.png") bottom left no-repeat;
+}
+
+#sidebar .first
+{
+  background: url("images/top-rosa.png") top left no-repeat;
+}
+
+
+#sidebar ul li,
+#sidebar ol li
+{
+	background-color: #eb005d;
+	border-bottom:1px solid #eb6c9e;
+}
+
+#sidebar ul li a:hover, #sidebar ul li:hover,
+#sidebar ol li a:hover, #sidebar ol li:hover
+{
+  background-color: #f32275;
+}
+
+#content h1
+{
+  color: #f32275;
+}
